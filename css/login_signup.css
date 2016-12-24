@@ -1,0 +1,134 @@
+* {
+	margin: 0rem;
+	padding: 0rem;
+	font-family: 'Marvel', sans-serif;
+	letter-spacing: 0.066rem;
+}
+
+.enclosure {
+	width: 19rem;
+	margin: 3rem auto;
+	border: solid thin #C2C7D0;
+	border-radius: 0.25rem;
+	text-align: center;
+	box-shadow: 1px 1px 3px 1px rgba(0, 0, 0, 0.3);
+}
+
+.label {
+	display: flex;
+	justify-content: space-around;
+}
+
+.log-label {
+	font-weight: bolder;
+	font-size: large;
+	color: #2EA5F5;
+}
+
+.data-fields .separator {
+	transform: scale(0.2);
+	height: 1.1rem;
+	background-color: #2EA5F5;
+	border: thin solid #2EA5F5;
+	border-radius: 3rem;
+}
+
+.entries {
+	text-align: left;
+	padding-right: 0.125rem;
+	border: solid thin #C2C7D0;
+	border-radius: 0.3rem;
+	margin: 1rem 1.6rem;
+}
+
+.entries input {
+	vertical-align: middle;
+	line-height: 2.4;
+	border: none;
+}
+
+.side-icons {
+	vertical-align: middle;
+	padding-left: 0.4rem;
+	position: relative;
+}
+
+.forgot {
+	text-decoration: none;
+}
+
+.login-btn {
+	position: relative;
+	left: 0.5rem;
+	transform: scale(0.8);
+	border: none;
+	margin-right: 1rem;
+	letter-spacing: 0.1rem;
+	display: inline-block;
+	font-size: 1.2rem;
+	margin-top: 1rem;
+	font-weight: bold;
+	width: 8rem;
+	text-align: center;
+	padding: 0.5rem 0.7rem;
+	background-color: #2EA5F5;
+	color: #fff;
+	box-shadow: 3px 3px 7px rgba(0, 0, 0, 0.3);
+	cursor: pointer;
+	border-radius: 0.3rem;
+}
+
+.login-btn:hover {
+	box-shadow: 3px 3px 7px 3px rgba(0, 0, 0, 0.3);
+}
+
+
+/*,inset 0 1px 15px rgba(151,159,175,0.05)*/
+
+.highlight {
+	border-color: #2EA5F5;
+	box-shadow: 0 0 5px rgba(70,145,246,0.5),inset 0 1px 2px rgba(151,159,175,0.2),inset 0 1px 15px rgba(151,159,175,0.05);
+}
+
+.side-labels {
+	margin: 1rem;
+	display: flex;
+	justify-content: space-around;
+}
+
+.top-label {
+	width: 20rem;
+	margin: auto;
+	text-align: center;
+	display: flex;
+	margin: 3rem auto;
+}
+
+.olv-title {
+	font-size: 2rem;
+	position: relative;
+	top: 0.3rem;
+	color: #2EA5F5;
+	font-weight: bolder;
+}
+
+.olv-logo {
+	width: 5.4rem;
+	height: 5.4rem;
+}
+
+@media screen and (max-width: 600px) {
+	
+	.top-label {
+		margin: 2rem auto;
+	}
+
+	.olv-title {
+		top: 0.3rem;
+		font-size: 1.8rem;
+	}
+
+	.olv-logo {
+		margin-right: -1rem;
+	}
+}

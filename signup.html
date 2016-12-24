@@ -1,0 +1,62 @@
+<?php
+	require('connect.php');
+
+	if(isset($_POST['signup'])) {
+		echo "HELLO";
+	}
+?>
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Sign Up | OLV</title>
+	<link href="https://fonts.googleapis.com/css?family=Marvel" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css/login_signup.css">
+	<script type="text/javascript" src="js/angular.min.js"></script>
+</head>
+<body>
+
+	<div class="top-label">
+		<img class="olv-logo" width="70" height="70" src="images/olv-logo-a.svg" />
+		<div class="olv-title">Online Learning Video Repository</div>
+	</div>
+
+	<div class="enclosure">
+		<div class="label">
+			<div class="log-label">Log In</div>
+			<div class="log-label">Sign Up</div>
+		</div>
+		<div class="field-box">
+			<form method="POST" action="$_SERVER['PHP_SELF']">
+				<div class="data-fields">
+					<div class="entries">
+						<img class="side-icons" src="images/id.svg" /> | 
+						<input type="text" name="s_id" placeholder="Student Id" size="30vw" />
+					</div>
+					<div class="entries">
+						<img class="side-icons" src="images/person.svg" /> |
+						<input type="text" name="name" placeholder="First And Last Name" size="30vw" />
+					</div>
+					<div class="entries">
+						<img class="side-icons" src="images/mail.svg" /> |
+						<input type="email" name="email" placeholder="Email Id" size="30vw" />
+					</div>
+					<div class="entries">
+						<img class="side-icons" src="images/lock.svg" /> |
+						<input type="password" name="password" placeholder="Password" size="30vw" />
+					</div>
+					<div class="log-in">
+						<button type="submit" class="login-btn" name="signup">Sign Up</button>
+						<br />
+					</div>
+					<hr class="separator" />
+				</div>
+			</form>
+		</div>
+	</div>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+
+	<script type="text/javascript" src="js/login_signup.js"></script>
+</body>
+</html>

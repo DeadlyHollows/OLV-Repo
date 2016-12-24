@@ -1,0 +1,82 @@
+<?php
+
+?>
+
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Admin - Dashboard</title>
+<link rel="stylesheet"	type="text/css" href="style-admin-dashboard.css">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="shortcut icon" type="image/png" href="images/icon.png" />
+</head>
+
+<body>
+
+	<div id="wrapper">
+		<header>
+			Admin - Dashboard
+		</header>
+		<main>
+			<div id="quick-stats">
+				<div id="stats-left">
+					<div class="stat-img">
+						<img src="nobody_m.original.jpg"/>
+					</div>
+					<div class="stat">
+						<p id="stat-user-rating" class="stat-big">445</p>
+						<p class="stat-small">Registered Users</p>
+					</div>
+				</div>
+				<div class="stats">
+					<div class="stat-img">
+						<img src="Ícone_Play.png"/>
+					</div>
+					<div class="stat">
+						<p id="stat-videos-uploaded" class="stat-big">4954</p>
+						<p class="stat-small">Videos-Uploaded</p>
+					</div>
+				</div>
+				<div class="stats">
+					<div class="stat-img">
+						<img src="nobody_m.original.jpg"/>
+					</div>
+					<div class="stat">
+						<p id="stat-total-views" class="stat-big">98</p>
+						<p class="stat-small">Active Users</p>
+					</div>
+				</div>
+			</div>
+			
+			<div id="master">
+				<div id="select-task">
+					<center>
+						<h2>Select a User</h2>
+						<form id="search-form" action="http://www,facebook.com">
+							<input type="text" placeholder="Type username here..."/> <br>
+							<input id="submit" type="submit" value="search"/>
+						</form>
+						
+						<ul>
+							<li class="select-users"><button onClick="">John Nash</button></li>
+							<li class="select-users"><button onClick="">George Trump</button></li>
+							<li class="select-users"><button onClick="">Jesica</button></li>
+							<li class="select-users"><button onClick="">Neil Johnson</button></li>
+							<li class="select-users"><button onClick="">Stephephen</button></li>
+							<li class="select-users"><button onClick="">Nelson Hawking</button></li>
+							<li class="select-users"><button onClick="">Rusk</button></li>
+						</ul>
+						
+					</center>
+				</div>
+				
+				<div id="do-task">
+					<iframe src="video-list.html"></iframe>
+				</div>
+			</div>
+		</main>
+	</div>
+
+</body>
+</html>

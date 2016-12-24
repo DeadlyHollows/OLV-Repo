@@ -1,0 +1,36 @@
+.video-layout {
+	display: flex;
+	justify-content: space-around;
+	margin-top: 7rem;
+}
+
+.video-play {
+	width: 60vw;
+	height: 69vh;
+}
+
+@media screen and (max-width: 900px) {
+	.video-play {
+		height: 60vh;
+	}
+}
+
+
+@media screen and (max-width: 700px) {
+	.video-play {
+		height: 55vh;
+	}
+}
+
+@media screen and (max-width: 600px) {
+	.video-play {
+		height: 48vh;
+	}
+}
+
+@media screen and (max-width: 500px) {
+	.video-play {
+		width: 92vw;
+		height: 42vh;
+	}
+}

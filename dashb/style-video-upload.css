@@ -1,0 +1,25 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+}
+
+input, select{
+	width: 60%;
+	font-size: large;
+	margin-top: 2%;
+	padding: 1%;
+	text-align: center;
+}
+
+#upload{
+	width: 30%;
+	border-style: none;
+	background: #8a8a8a;
+}
+
+#upload:hover{
+	background: #B7B7B7;
+	cursor: pointer;
+}
+
